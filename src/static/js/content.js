@@ -1,6 +1,10 @@
 $(document).ready(function() {
     var path = window.location.pathname;
 
+    // Responsive bootstrap tables with borders and stripes
+    $('table').addClass('table table-striped table-bordered');
+    $('table').wrap('<div class="table-responsive"></div>');
+
     $('#categoryList')
         .each(function() {
             $(this).find('ul')
