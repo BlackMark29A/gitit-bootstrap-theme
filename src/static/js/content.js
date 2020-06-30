@@ -32,6 +32,10 @@ $(document).ready(function() {
                 .addClass('form-group')
                 .after($(this).find('input[name="login"]'))
                 .after($(this).find('input[name="register"]'));
+            $(this).find('label[for="accessCode"]')
+                .addClass('col-form-label');
+            $(this).find('input[name="accessCode"]')
+                .addClass('form-control');
             $(this).find('label[for="username"]')
                 .addClass('col-form-label');
             $(this).find('input[name="username"]')
