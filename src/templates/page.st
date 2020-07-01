@@ -17,6 +17,7 @@
     <link href="$base$/css/solid.css" rel="stylesheet" media="screen, projection" type="text/css" />
     <link href="$base$/css/custom.css" rel="stylesheet" media="screen, projection" type="text/css" />
     <link href="$base$/css/print.css" rel="stylesheet" media="print" type= "text/css" />
+    <link rel="localization" hreflang="de" href="$base$/lang/de.json" type="application/vnd.oftn.l10n+json" />
     <script type="text/javascript" src="$base$/js/jquery.min.js"></script>
     <script type="text/javascript" src="$base$/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="$base$/js/bootstrap.min.js"></script>
@@ -25,6 +26,7 @@
     <script type="text/javascript" src="$base$/js/content.js"></script>
     <script type="text/javascript" src="$base$/js/toc.js"></script>
     <script type="text/javascript" src="$base$/js/custom.js"></script>
+    <script type="text/javascript" src="$base$/js/l10n.js"></script>
     $endif$
     <!--[if IE]><link href="$base$/css/ie.css" rel="stylesheet" media="screen, projection" type="text/css" /><![endif]-->
   </head>
