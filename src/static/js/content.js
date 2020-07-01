@@ -4,6 +4,7 @@ $(document).ready(function() {
     // Responsive bootstrap tables with borders and stripes
     $('table').addClass('table table-striped table-bordered');
     $('table').wrap('<div class="table-responsive"></div>');
+    $('colgroup').remove();
 
     $('#categoryList')
         .each(function() {
