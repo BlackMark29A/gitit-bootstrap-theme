@@ -53,5 +53,11 @@
     "Drag one revision onto another to see differences.": "Ziehe eine Revision auf die andere um die Änderungen zu sehen.",
     "Reset Password": "Passwort zurücksetzen",
     "Register": "Registrieren",
-    "Current version": "Aktuelle Version"
+    "Current version": "Aktuelle Version",
+    "regex": {
+        "Create (.*)\\?": "$1 erstellen?",
+        "^There is no page named '(.*)'. You can:$": "Es gibt keine Seite namens '$1'. Du kannst:",
+        "^Create the page '(.*)'$": "Die Seite '$1' erstellen",
+        "^Search for pages containing the text '(.*)'$": "Seiten mit dem Text '$1' suchen"
+    }
 }
