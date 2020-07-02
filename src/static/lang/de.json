@@ -62,6 +62,10 @@
     "Yes, delete it!": "Ja, lösche sie!",
     "No, keep it!": "Nein, behalte sie!",
     "Deleted using web interface.": "Über das Webinterface gelöscht.",
+    "Password must be at least 6 characters, and must contain at least one non-letter.": "Passwort muss mindestens 6 Zeichen haben, davon mindestens ein Nicht-Buchstabe.",
+    "Username must be at least 3 characters, all letters or digits.": "Benutzername muss mindestens 3 Zeichen haben, alles davon Buchstaben oder Ziffern.",
+    "Incorrect response to access prompt.": "Falsche Antwort auf Zugangsfrage.",
+    "Unknown user. Please re-register or press the Back button to try again.": "Unbekannter Benutzer. Bitte registriere dich erneut, oder geh zurück um es nochmals zu versuchen.",
     "regex": {
         "Create (.*)\\?": "$1 erstellen?",
         "^There is no page named '(.*)'. You can:$": "Es gibt keine Seite namens '$1'. Du kannst:",
