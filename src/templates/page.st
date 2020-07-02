@@ -80,5 +80,6 @@ $footer()$
 $javascripts$
 $expire()$
 $getuser()$
+    <script type="text/javascript" src="$base$/js/localize.js"></script>
   </body>
 </html>
