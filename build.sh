@@ -76,7 +76,4 @@ copy ${FONTAWESOME_DIR}/fontawesome-free-${FONTAWESOME_VERSION}-web/css/fontawes
 copy ${FONTAWESOME_DIR}/fontawesome-free-${FONTAWESOME_VERSION}-web/css/solid.css out/static/css/solid.css
 copy ${FONTAWESOME_DIR}/fontawesome-free-${FONTAWESOME_VERSION}-web/webfonts out/static/webfonts
 
-L10N_JS_URL="${L10N_JS_URL:-https://raw.githubusercontent.com/eligrey/l10n.js/master/l10n.js}"
-download "${L10N_JS_URL}" out/static/js/l10n.js
-
 info "Done"
