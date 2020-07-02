@@ -164,6 +164,15 @@ var
 		if (locale in localizations && this_val in localizations[locale]) {
 			return localizations[locale][this_val];
 		}
+		if (locale in localizations && localizations[locale]["regex"]) {
+			for (var regex in localizations[locale]["regex"]) {
+				var regExp = new RegExp(regex);
+				var localized = this_val.replace(regExp, localizations[locale]["regex"][regex]);
+				if (localized != this_val) {
+					return localized;
+				}
+			}
+		}
 	}
 	while (i--);
 	
