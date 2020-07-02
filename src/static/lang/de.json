@@ -54,10 +54,25 @@
     "Reset Password": "Passwort zurücksetzen",
     "Register": "Registrieren",
     "Current version": "Aktuelle Version",
+    "Invalid username or password.": "Ungültiger Benutzername oder Passwort.",
+    "Upload": "Hochladen",
+    "Page cannot be deleted.": "Seite kann nicht gelöscht werden.",
+    "Description cannot be empty.": "Beschreibung darf nicht leer sein.",
+    "Are you sure you want to delete this page?": "Bist du sicher, dass du diese Seite löschen willst?",
+    "Yes, delete it!": "Ja, lösche sie!",
+    "No, keep it!": "Nein, behalte sie!",
+    "Deleted using web interface.": "Über das Webinterface gelöscht.",
     "regex": {
         "Create (.*)\\?": "$1 erstellen?",
         "^There is no page named '(.*)'. You can:$": "Es gibt keine Seite namens '$1'. Du kannst:",
         "^Create the page '(.*)'$": "Die Seite '$1' erstellen",
-        "^Search for pages containing the text '(.*)'$": "Seiten mit dem Text '$1' suchen"
+        "^Search for pages containing the text '(.*)'$": "Seiten mit dem Text '$1' suchen",
+        "^Search (.*)$": "$1 durchsuchen",
+        "^Editing (.*)$": "$1 editieren",
+        "^Changes to (.*)$": "Änderungen von $1",
+        "^Changes from (.*) to (.*)$": "Änderungen zwischen $1 und $2",
+        "^([0-9]+) matches found for (.*)$": "$1 Treffer gefunden für $2",
+        "^Recent changes by (.*)$": "Kürzliche Änderungen von $1",
+        "^Delete (.*)\\?$": "$1 löschen?"
     }
 }
