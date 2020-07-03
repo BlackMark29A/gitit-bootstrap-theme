@@ -32,7 +32,16 @@ $(document).ready(function() {
             $(this).find('fieldset')
                 .addClass('form-group')
                 .after($(this).find('input[name="login"]'))
-                .after($(this).find('input[name="register"]'));
+                .after($(this).find('input[name="register"]'))
+                .after($(this).find('input[name="resetPassword"]'));
+            $(this).find('label[for="username"]')
+                .replaceWith(function() {
+                    var usernameRegexp = /(.*)(Username \(cannot be changed\):) (.*)(<.*)/;
+                    var replacer = function(match, p1, p2, p3, p4, offset, string) {
+                        return p1 + p2 + p4 + '<input type="text" placeholder="' + p3 + '" class="form-control" readonly>';
+                    };
+                    return this.outerHTML.replace(usernameRegexp, replacer);
+                });
             $(this).find('label[for="accessCode"]')
                 .addClass('col-form-label');
             $(this).find('input[name="accessCode"]')
