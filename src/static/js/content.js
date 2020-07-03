@@ -64,11 +64,14 @@ $(document).ready(function() {
             $(this).find('input[name="register"]')
                 .addClass('btn')
                 .addClass('btn-primary');
+            $(this).find('input[name="resetPassword"]')
+                .addClass('btn')
+                .addClass('btn-warning');
             $(this).find('br')
                 .remove();
         });
 
-    $('#resetPassword')
+    $('form#resetPassword')
         .addClass('jumbotron')
         .each(function() {
             $(this).find('fieldset')
