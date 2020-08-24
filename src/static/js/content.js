@@ -55,7 +55,7 @@ $(document).ready(function() {
             $(this).find('input[name="email"]')
                 .addClass('form-control');
             $(this).find('input[name="full_name_1"]')
-                .before('<label for="full_name_1">Fullname (optional):</label>')
+                .before('<label class="req" for="full_name_1">Fullname (optional):</label>')
                 .addClass('col-form-label');
             $(this).find('input[name="full_name_1"]')
                 .addClass('form-control');
